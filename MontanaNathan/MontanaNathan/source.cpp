@@ -213,5 +213,33 @@ int main()
 				}
 			}
 
+<<<<<<< HEAD
+			if (letter == 'd' || letter == 'D')
+			{
+				if (region == 1)
+				{
+					std::cout << "Dominica, Dominican Republic" << std::endl;
+				}
+				if (region == 2)
+				{
+					std::cout << "Denmark" << std::endl;
+				}
+				if (region == 3)
+				{
+					std::cout << "Djibouti" << std::endl;
+				}
+				if (region == 4)
+				{
+					std::cout << "there are no places in region 4" << std::endl;
+				}
+				if (region == 5)
+				{
+					std::cout << "there are no places in region 5" << std::endl;
+				}
+			}
+
+
+=======
 >>>>>>> 9875c74898e3dfde62b83fdca5f44596fb67cf27
+>>>>>>> main
 		}
