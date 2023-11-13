@@ -51,4 +51,29 @@ int main()
 					std::cout << "there are no places in region 5" << std::endl;
 				}
 			}
+
+			if (letter == 'c' || letter == 'C')
+			{
+				if (region == 1)
+				{
+					std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba" << std::endl;
+				}
+				if (region == 2)
+				{
+					std::cout << "Croatia, Czech Republic" << std::endl;
+				}
+				if (region == 3)
+				{
+					std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of Congo, Congo Republic" << std::endl;
+				}
+				if (region == 4)
+				{
+					std::cout << "Cambodia, China, Christmas Islands, Cyprus" << std::endl;
+				}
+				if (region == 5)
+				{
+					std::cout << "Cocos Island, Cook Islands" << std::endl;
+				}
+			}
+
 		}
