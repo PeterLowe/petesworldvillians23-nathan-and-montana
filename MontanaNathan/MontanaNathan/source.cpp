@@ -144,7 +144,28 @@ int main()
 		{
 			std::cout << "Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Saudi Arabia, Solomon Islands" << std::endl;
 		}
-
+		if (letter == 'r' || letter == 'R')
+		{
+			if (region == 1)
+			{
+				std::cout << "There are no Rs in the Americas" << std::endl; // default negative response
+			}
+			if (region == 2)
+			{
+				std::cout << "Romania, Russian Federation" << std::endl;
+			}
+			if (region == 3)
+			{
+				std::cout << "Reunion Island, Rwanda" << std::endl;
+			}
+			if (region == 4)
+			{
+				std::cout << "Russian Federation" << std::endl;
+			}
+			if (region == 5)
+			{
+				std::cout << "There are no Rs in the rest of the world" << std::endl;
+			}
 
 
 	return 1;
