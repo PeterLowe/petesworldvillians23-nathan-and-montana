@@ -122,6 +122,28 @@ int main()
 			std::cout << "Tokelau, Tonga, Turks, Caicos Islands, Tuvalu" << std::endl;
 		}
 	}
+	if (letter == 's' || letter == 'S')
+	{
+		if (region == 1)
+		{
+			std::cout << "Suriname" << std::endl; // default negative response
+		}
+		if (region == 2)
+		{
+			std::cout << "San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Swaiziland" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Singapore, Sri Lanka, Syria" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Saudi Arabia, Solomon Islands" << std::endl;
+		}
 
 
 
