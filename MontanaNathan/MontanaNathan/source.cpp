@@ -166,7 +166,28 @@ int main()
 			{
 				std::cout << "There are no Rs in the rest of the world" << std::endl;
 			}
-
+			if (letter == 'q' || letter == 'Q')
+			{
+				if (region == 1)
+				{
+					std::cout << "There are no Qs in the Americas" << std::endl; // default negative response
+				}
+				if (region == 2)
+				{
+					std::cout << "There are no Qs in Europe" << std::endl;
+				}
+				if (region == 3)
+				{
+					std::cout << "There are no Qs in Africa" << std::endl;
+				}
+				if (region == 4)
+				{
+					std::cout << "There are no Qs in Asia" << std::endl;
+				}
+				if (region == 5)
+				{
+					std::cout << "Qatar" << std::endl;
+				}
 
 	return 1;
 }
